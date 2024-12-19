@@ -22,4 +22,22 @@ This repository contains the code and methodology for performing image classific
 * Evaluation: the trained model performance is evaulauted on a test dataset using Accuracy, Precision Score, and recal_score
 
 ## Libraies
+The following Libaries were used in this project:
+* Tensorflow: A framework used to impelement deep learning for training and building neural networks
+* numpy: Used for Scientific computation with Python used for array manipulations and data amnipulations
+* matplotlib: A plotting library for Python
+* Streamlit: for creating a interactive interface for user
+* Pickle: used to load the saved model
+* PIL: used to load the images, resize the target image for the model
+
+# Model Saving
+the final model was saved in HDF5 format
+
+## Usage
+* Clone the respoitory: git clone https://github.com/Insight00001/CIFAR100.git
+* installed the required dependencies: pip install -r requirements
+* download the Cifar100 dataset: use the tensoflow in built function
+
+## Conclusion:
+
 
