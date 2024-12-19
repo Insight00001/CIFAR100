@@ -18,11 +18,14 @@ This repository contains the code and methodology for performing image classific
 * Hyperparameter fine-tuning: the base model is fine-tuned on the cifar100 dataset to adapt to the specific classification task using:
 * GridSearch
 * Bayesian Optimization
-* Transfer learning: pre-trained model (RESNET50) is used on the cifar100 dataset
+* Transfer learning: pre-trained model (RESNET50) is used on the cifar100 dataset.
 * Hypothesis: T-test is performed to determine if regular machine learning model(Logistic regression) perform better than deep learning models
 * Training: the model is trained on the appropiate amount of training dataset with the appropiate optimizer and loss function
 * Evaluation: the trained model performance is evaulauted on a test dataset using Accuracy, Precision Score, and recal_score
-
+## Model Performance(RESNET50)
+* Accuracy Score: 60.58%
+* Precision Score: 62.14%
+* Recall Score: 60.58%
 ## Libraies
 The following Libaries were used in this project:
 * Tensorflow: A framework used to impelement deep learning for training and building neural networks
@@ -42,5 +45,7 @@ the final model was saved in HDF5 format
 
 ## Conclusion:
 This are the steps taken to perform image classification using tensorflow on Cifar100 dataset, the model was able to predict some classes correctly with a confidence score of 100%
+
+
 
 
